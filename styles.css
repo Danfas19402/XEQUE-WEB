@@ -23,4 +23,5 @@ div{ cursor:pointer;}
 #escolhecor-inicio{ display:block; left:45%;}
 
 p{
-  text align: center;
+    text-align: center;
+}
