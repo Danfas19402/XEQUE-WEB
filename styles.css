@@ -22,18 +22,44 @@ div{ cursor:pointer;}
 .escolhe div{width:70px; height:70px; float:left; margin:1px; font-size: 48px; text-align:center; float:left; margin:5px;}
 #escolhecor-inicio{ display:block; left:45%;}
 
+/* Área abaixo do tabuleiro */
+.area-inferior {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+  margin: 20px auto;
+}
+
+/* Botão Regras do Xadrez */
 .btn-regras {
   display: inline-block;
-  background: #198754;
-  color: white;
-  padding: 14px 22px;
+  background-color: #198754;
+  color: #ffffff;
+  padding: 14px 24px;
   border-radius: 10px;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  text-align: center;
+  transition: background-color 0.3s;
 }
 
 .btn-regras:hover {
-  background: #146c43;
+  background-color: #146c43;
+}
+
+/* Rodapé */
+.rodape {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.rodape p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #333333;
 }
